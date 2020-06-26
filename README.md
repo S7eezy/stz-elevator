@@ -10,7 +10,7 @@ It was made to reach a very low resource consumption.
 - Whenever your ped stands at a distance of over 50 meters from the Lobby elevator.
 - Whenever distance reaches 100, 200 or 500 meters between you and the elevator, the resource will adjust its wait time on the main loop.
 
-I thought it would be interesting to share this, even if you absolutely don't need this specific elevator because of the way it works.
+I thought it would be interesting to share this even if you absolutely don't need this specific elevator, because of the way it works with distances.
 
 # Credits
 **RageUI by iTexZoz:**
