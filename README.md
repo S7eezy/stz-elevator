@@ -24,7 +24,18 @@ https://github.com/iTexZoz/RageUI/wiki
 # Editing this resource
 Feel free to edit this resource to fit your needs.
 
-- By default, there are 9 teleport points, from line 2 to 10 in cl_teleports. You can edit coords, and add teleport points assuming you duplicate one of the buttons in the **RageUI.CreateWhile** loop.
+## Adding points
+By default, there are 9 teleport points, from line 2 to 10 in cl_teleports. 
+
+You can edit coords, and add teleport points assuming you follow these 5 simple steps :
+- Create a new var on line 11+
+- Duplicate one of the buttons in the **RageUI.CreateWhile** loop, and edit SetEntityCoords with your new var coords.
+- Init the dist as 10 on line 202
+- Duplicate the else statement and make it for your new var on line 233
+- Check the distance between your ped and the var coords on line 259
+
 Everything you should know is commented right above important lines.
+
+I know it could be a lot simpler with a **config.lua** and **for** loops, but it was irrelevant for my needs, feel free to do it.
 
 - To edit the menu header, you have to open **"/stream/Menus/shopui_title_casino.ytd"** in OpenIV then edit the main asset.
