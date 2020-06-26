@@ -12,6 +12,9 @@ It was made to reach a very low resource consumption.
 
 I thought it would be interesting to share this even if you absolutely don't need this specific elevator, because of the way it works with distances.
 
+# Demo
+https://streamable.com/fncf45
+
 # Credits
 **RageUI by iTexZoz:**
 https://github.com/iTexZoz/RageUI
