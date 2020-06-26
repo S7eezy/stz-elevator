@@ -38,4 +38,6 @@ Everything you should know is commented right above important lines.
 
 I know it could be a lot simpler with a **config.lua** and **for** loops, but it was irrelevant for my needs, feel free to do it.
 
-- To edit the menu header, you have to open **"/stream/Menus/shopui_title_casino.ytd"** in OpenIV then edit the main asset.
+## Editing the menu header
+
+To edit the menu header, you have to open **"/stream/Menus/shopui_title_casino.ytd"** in OpenIV then edit the main asset.
