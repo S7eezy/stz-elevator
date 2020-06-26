@@ -7,8 +7,8 @@ This script will allow you to simply setup a RageUI Elevator or Teleport script.
 By default, it is setup to work for VespucciPD MLO, but you can easily edit coords to fit your needs.
 
 It was made to reach a very low resource consumption.
-- Whenever your ped stands at a distance of over 50 meters from the Lobby elevator.
-- Whenever distance reaches 100, 200 or 500 meters between you and the elevator, the resource will adjust its wait time on the main loop.
+- Whenever your ped stands at a distance of over 50 meters from the Lobby elevator, the main loop will idle long enough to save resources.
+- Whenever distance reaches 100, 200 or 500 meters between you and the elevator, the resource will adjust its wait time on the main loop even longer.
 
 I thought it would be interesting to share this even if you absolutely don't need this specific elevator, because of the way it works with distances.
 
